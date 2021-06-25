@@ -60,14 +60,18 @@ h1
 
 .title-image
 {
+    position:absolute;
     width:60%;
     transform: rotate(25deg);
 }
 
 /* section2 */
 #features
-{
+{   
+    position: relative;
     padding: 7% 15%;
+    z-index: 2;
+    background-color: #ffff;
 }
 
 
@@ -112,7 +116,7 @@ h1
 
 #testimonials
 {
-    padding:7% 15%;
+
     text-align: center;
     background-color: #ef8172;
     color: #ffff;
@@ -120,5 +124,60 @@ h1
 
 .img2
 {
+    width:10%;
     border-radius: 50%;
+    margin: 20px;
+}
+
+.carousel-item
+{
+    padding:7% 15%;
+}
+
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+.pricing-column3
+{
+    height:89%;
+}
+
+.text1
+{
+    position: relative;
+    bottom: 1.8rem;
+}
+.text12
+{
+    position: relative;
+    bottom: 1.3rem;
+}
+
+.btn1
+{
+    position: relative;
+    bottom:2.5rem;
 }
